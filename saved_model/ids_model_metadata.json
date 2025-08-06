@@ -1,0 +1,58 @@
+{
+  "training_date": "2025-08-06T23:51:49.987001",
+  "model_type": "RandomForestClassifier",
+  "n_features": 20,
+  "selected_features": [
+    "Flow Duration",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Fwd IAT Total",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Min Packet Length",
+    "Max Packet Length",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "Average Packet Size",
+    "Avg Bwd Segment Size",
+    "Idle Mean",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "training_samples": 1359976,
+  "test_samples": 582847,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 10,
+    "min_samples_split": 20,
+    "min_samples_leaf": 10,
+    "class_weight": "balanced"
+  },
+  "evaluation_metrics": {
+    "train": {
+      "accuracy": 0.9953359471049489,
+      "precision": 0.9953447577004738,
+      "recall": 0.9953359471049489,
+      "f1": 0.995339302012831,
+      "roc_auc": 0.999637408393456
+    },
+    "test": {
+      "accuracy": 0.995283496354961,
+      "precision": 0.9952902534493235,
+      "recall": 0.995283496354961,
+      "f1": 0.9952862055532619,
+      "roc_auc": 0.9995743655735618
+    },
+    "cv": {
+      "accuracy": 0.9952344747741344,
+      "f1": 0.9952375344833705,
+      "roc_auc": 0.9996234719564925
+    }
+  }
+}

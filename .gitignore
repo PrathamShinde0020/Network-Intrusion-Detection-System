@@ -1,0 +1,8 @@
+# Ignore the large dataset file
+dataset/ids_data.csv
+
+# Ignore Python virtual environment and cache
+jupiter_env/
+venv/
+__pycache__/
+*.pyc

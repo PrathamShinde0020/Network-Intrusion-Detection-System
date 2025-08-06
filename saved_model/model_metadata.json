@@ -1,0 +1,33 @@
+{
+  "training_date": "2025-08-07T00:33:55.627522",
+  "model_type": "RandomForestClassifier",
+  "n_features": 20,
+  "selected_features": [
+    "Flow Duration",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Fwd IAT Total",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Min Packet Length",
+    "Max Packet Length",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "Average Packet Size",
+    "Avg Bwd Segment Size",
+    "Idle Mean",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 10,
+    "min_samples_split": 20,
+    "min_samples_leaf": 10
+  }
+}
